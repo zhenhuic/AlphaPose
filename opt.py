@@ -123,6 +123,8 @@ parser.add_argument('--nms', dest='nms_thesh', type=float, default=0.6,
                     help='bounding box nms threshold')
 parser.add_argument('--save_img', default=False, action='store_true',
                     help='save result as image')
+parser.add_argument('--save_crop_img', default=False, action='store_true',
+                    help='save specified crop image')
 parser.add_argument('--vis', default=False, action='store_true',
                     help='visualize image')
 parser.add_argument('--matching', default=False, action='store_true',
